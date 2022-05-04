@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         Count =0;
     }
 
-    public void increaseCount(View view)
+    public void increaseCount(View view)  //when "INCREASE" button is clicked, this function is called
     {
         Count++;
         TextView countValue = findViewById(R.id.count);
