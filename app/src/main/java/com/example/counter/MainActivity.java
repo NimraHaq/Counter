@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+//This is a counter application
 public class MainActivity extends AppCompatActivity {
 
     int Count;  //count value is stored in this "Count" variable
