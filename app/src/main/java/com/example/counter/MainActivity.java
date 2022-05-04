@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     {
         Count--;
         TextView countValue2 = findViewById(R.id.count);
-        countValue2.setText(Integer.toString(Count));
+        countValue2.setText(Integer.toString(Count));  //Providing user the updated value of count
 
     }
 }
