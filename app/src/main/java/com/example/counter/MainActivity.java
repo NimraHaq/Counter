@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         countValue.setText( Integer.toString(Count));
 
     }
-    public void decreaseCount(View view)
+    public void decreaseCount(View view)  //when "DECREASE" button is clicked, this function is called
     {
         Count--;
         TextView countValue2 = findViewById(R.id.count);
